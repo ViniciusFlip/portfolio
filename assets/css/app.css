@@ -1,0 +1,145 @@
+ 
+body{
+    font-family: "Poppins", serif !important;
+    
+      
+    background: #f8f9fa;
+  
+  }
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    border-radius: 10px;
+    max-height: 300px;
+    overflow: hidden;
+}
+
+  .btn.btn-primary {
+  background: rebeccapurple;
+    border: rebeccapurple;
+  }
+  .btn-outline-primary{
+    border:1px solid rebeccapurple !important;
+    color:rebeccapurple!important ;
+
+  }
+  .modal.show {
+  display: block;
+  }
+
+body.dark {
+    background: rgb(19, 19, 19);
+    color: white;
+}
+
+ 
+.navbar-toggler-icon{
+ background-image: url('../img/menu-bl.svg') !important;
+}
+body.dark .navbar-toggler-icon{
+background-image: url('../img/menu-wh.svg') !important;
+
+}
+body.dark .target.dark{
+    display: none;
+}
+
+.target.light{
+    display: none;
+}
+body.dark .target.light{
+    display: inherit;
+}
+body.dark div#hanging-icons .card {
+    background: #1c1c1c !important;
+}
+body.dark h6{
+    color: #dadada !important; 
+}
+body.dark h3,body.dark p {
+    color: #a9a9a9 !important;
+}
+body.dark .text-body-emphasis,body.dark .nav-link,body.dark .navbar-nav .nav-link.active, body.dark .navbar-nav .nav-link.show {
+    color:  white !important;
+}
+@media(max-width:800px){
+
+body.dark .navbar-collapse{
+ background-color:#1c1c1c;   
+}
+.select-thema {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    margin: 20px;
+
+    display: none !important;
+}
+}
+
+body.dark .controls button svg{
+    color: white;
+}
+ .controls button{
+    background-color: transparent;
+    border: 0;
+ }
+a.navbar-brand.app {
+    display: block; 
+    background-image: url('../../harmony_logo.png');
+    width: 120px;
+    height: 20px;
+    background-size: contain;
+    background-repeat:no-repeat ;
+
+}
+body.dark a.navbar-brand {
+   
+    background-image: url('../../harmony_logo_white.png');
+    
+}
+.bg-transparent{
+    background-color: transparent;
+}
+@media(max-width:767px){
+
+    .navbar-collapse {
+        position: fixed !important;
+        width: 100%;
+        left: 0;
+        z-index: 999;
+        background: #eee;
+        top: 0;
+        padding: 22px;
+        height: 100%;
+    }
+
+    ul.navbar-nav li {
+        margin: 10px 0;
+        font-size: 20px;
+    }
+    
+}
+@media(min-width:576px){
+    .modal-dialog {
+        max-width: 80% !important; 
+        min-width: 900px !important; 
+        width:900px !important; 
+       
+    }
+    .modal-dialog img{
+        min-width: 100%;
+    }
+     
+}
+ 
+
+@media (min-width:1400px){
+    .navbar .container-fluid {
+        max-width: 80% !important;
+    }
+}
