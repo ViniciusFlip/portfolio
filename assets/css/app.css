@@ -19,12 +19,12 @@ body{
 }
 
   .btn.btn-primary {
-  background: rebeccapurple;
-    border: rebeccapurple;
+  background: #0a32ca;
+    border: #0a32ca;
   }
   .btn-outline-primary{
-    border:1px solid rebeccapurple !important;
-    color:rebeccapurple!important ;
+    border:1px solid #0a32ca !important;
+    color:#0a32ca!important ;
 
   }
   .modal.show {
