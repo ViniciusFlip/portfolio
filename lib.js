@@ -58,7 +58,7 @@ sendMsg=()=>{
     console.log(leadMsg.value,url)
 
     var msg=leadMsg.value
-    url=`https://api.whatsapp.com/send/?phone=`+whatNumber+`&text=Ol%C3%A1+Harmony+Studio+`+msg+``
+    url=`https://api.whatsapp.com/send/?phone=`+whatNumber+`&text=Ol%C3%A1+Vinicius+Flip+`+msg+``
     return location.href=url
 
     }
