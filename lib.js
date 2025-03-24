@@ -42,8 +42,8 @@ toggleMenu=()=>{
 let whatBtn=document.querySelectorAll('.whats-btn')
 let formMsg=document.querySelector('.formMsg')
 let leadMsg=document.getElementById('leadMsg')
-let whatNumber="5511912672802"
-let url=`https://api.whatsapp.com/send/?phone=`+whatNumber+`&text=Ol%C3%A1+Harmony+Studio`
+let whatNumber="5512981870835"
+let url=`https://api.whatsapp.com/send/?phone=`+whatNumber+`&text=Hi+Flip`
  
 
 openWhat=()=>{
