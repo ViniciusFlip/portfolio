@@ -10,6 +10,7 @@ export const categorias = {
         "Alimentação",
         "Manga",
         "Marion",
+        "Internet",
         "Casa",
         "Transporte",
         "Saúde",
